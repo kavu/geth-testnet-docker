@@ -1,15 +1,20 @@
 {
-  "nonce": "0x0000000000000042",
+  "nonce": "0x0000000000000013",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "difficulty": "0x400",
-  "coinbase": "0x3333333333333333333333333333333333333333",
+  "difficulty": "0x1",
+  "coinbase": "0x007ccffb7916f37f7aeef05e8096ecfbe55afc2f",
   "timestamp": "0x0",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "extraData": "Custem Ethereum Genesis Block",
   "gasLimit": "0x8000000",
+  "config": {
+    "chainId": 101987,
+    "homesteadBlock": 0,
+    "eip155Block": 0,
+    "eip158Block": 0
+  },
   "alloc": {
     "0x007ccffb7916f37f7aeef05e8096ecfbe55afc2f": {
-      "balance": "20000000000000000000"
+      "balance": "10000000000000000000"
     },
     "0x99429f64cf4d5837620dcc293c1a537d58729b68": {
       "balance": "20000000000000000000"
