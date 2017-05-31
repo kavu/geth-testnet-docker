@@ -1,8 +1,8 @@
-FROM ethereum/client-go:v1.6.2
+FROM ethereum/client-go:v1.6.0
 
 LABEL name="eth-node" version="1.0.0"
 
-RUN apk --no-cache --update add curl git bash nodejs perl
+RUN apk --no-cache --update add git bash nodejs perl
 
 RUN cd /root &&\
     git clone https://github.com/cubedro/eth-net-intelligence-api &&\
